@@ -3,7 +3,7 @@ library(bnclassify)
 
 #' Generating the inital emission probability distribution of the covariates in TAN structure.
 #'
-#' @param net Object of type 'bn' provided as output by \link{bnlearn}{model2network} showing the TAN structure between target variable and covariates.
+#' @param net Object of type 'bn' provided as output by \link[bnlearn]{model2network} showing the TAN structure between target variable and covariates.
 #' @param observation Dataframe containing the discritized character values of only covariates at each node. Column names of dataframe should be same as the covariate names. Missing values should be denoted by "NA".
 #' @param sym Character vector of possible values of target variable
 #' @return Inital emission probability distribution of the covariates in TAN structure
@@ -48,7 +48,7 @@ gen_emis = function(net, observation, sym)
 #'
 #' @param States A (2 * 1) vector with first element being discrete state value for the cases(or positive) and second element being discrete state value for the controls(or negative) for given dagHMM
 #' @param dagmat Adjacent Symmetry Matrix that describes the topology of the dag
-#' @param net Object of type 'bn' provided as output by \link{bnlearn}{model2network} showing the TAN structure between target variable and covariates.
+#' @param net Object of type 'bn' provided as output by \link[bnlearn]{model2network} showing the TAN structure between target variable and covariates.
 #' @param observation Dataframe containing the discritized character values of covariates at each node. If "net" is not given, dataframe should also contain the column for target variable (as the last column) so as to learn the structure. Column names of dataframe should be same as the covariate names. Missing values should be denoted by "NA".
 #' @param startProbs (Optional) (2 * 1) vector containing starting probabilities for the states. Default is equally probable states
 #' @param transProbs (Optional) (2 * 2) matrix containing transition probabilities for the states.

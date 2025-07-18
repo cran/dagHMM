@@ -1,11 +1,11 @@
-e80833ff7cc88d450fe8ab98517c67b7 *DESCRIPTION
+396a9379626c004914d8b20006c4932b *DESCRIPTION
 569052d2819898202c3af03248759ebd *NAMESPACE
 42365883309aea967cc858d64a3ca48a *R/backward.R
 6e449a296c3b50e09891ac6307c2071e *R/baumWelch.R
 0be5ff1b09065acc29d68973e72b10c5 *R/bwd_seq_gen.R
 6285ce360b8c123b0c65253253a6718e *R/forward.R
 525cfc11512f7c6a7d0ec6d4d9986f0a *R/fwd_seq_gen.R
-7efa6b3f280bca616029b4de7c4fbb55 *R/initHMM.R
+b4a9471430c85954f511256db8ab5136 *R/initHMM.R
 19df4f5a0f5ed055733753a3f0777339 *man/backward.Rd
 2f476124ca379f27c51a0dcd3d8d4951 *man/baumWelch.Rd
 ba8597a79360ae957ef8ee3eee4a4b31 *man/baumWelchRecursion.Rd
@@ -13,6 +13,6 @@ ba8597a79360ae957ef8ee3eee4a4b31 *man/baumWelchRecursion.Rd
 6188bd70f4c5776c69e4502608fada54 *man/calc_emis.Rd
 69fb82ce601ae6edc767ae0bebbf6c2d *man/forward.Rd
 e008f8b9b9be1ad8cddb106946d16bb1 *man/fwd_seq_gen.Rd
-a77c154fba47cca63c73f63b80be8fc1 *man/gen_emis.Rd
-9a0fd16c8e1e3a81a70c8da895ba0b25 *man/initHMM.Rd
+5b1098653aec7bff360d43a8306a8918 *man/gen_emis.Rd
+746b1ca3ede0e79195d8c3949d2ff9d2 *man/initHMM.Rd
 bd3609115f5017439ab3b82ff7fcf775 *man/noisy_or.Rd

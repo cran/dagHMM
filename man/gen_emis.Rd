@@ -7,7 +7,7 @@
 gen_emis(net, observation, sym)
 }
 \arguments{
-\item{net}{Object of type 'bn' provided as output by \link{bnlearn}{model2network} showing the TAN structure between target variable and covariates.}
+\item{net}{Object of type 'bn' provided as output by \link[bnlearn]{model2network} showing the TAN structure between target variable and covariates.}
 
 \item{observation}{Dataframe containing the discritized character values of only covariates at each node. Column names of dataframe should be same as the covariate names. Missing values should be denoted by "NA".}
 

@@ -19,7 +19,7 @@ initHMM(
 
 \item{dagmat}{Adjacent Symmetry Matrix that describes the topology of the dag}
 
-\item{net}{Object of type 'bn' provided as output by \link{bnlearn}{model2network} showing the TAN structure between target variable and covariates.}
+\item{net}{Object of type 'bn' provided as output by \link[bnlearn]{model2network} showing the TAN structure between target variable and covariates.}
 
 \item{observation}{Dataframe containing the discritized character values of covariates at each node. If "net" is not given, dataframe should also contain the column for target variable (as the last column) so as to learn the structure. Column names of dataframe should be same as the covariate names. Missing values should be denoted by "NA".}
 
